@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=!, initial-scale=1.0" />
+    <title>Контакты</title>
+  </head>
+  <style>
+    .header {
+      margin: 10px 50px 50px 50px;
+      font-size: 40px;
+    }
+    @font-face {
+      font-family: "Naurus";
+      src: url("./NAURYZREDKEDS.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+    }
+    body {
+      font-family: Naurus;
+    }
+    #block {
+      display: flex;
+      justify-content: center;
+    }
+    #block1 {
+      display: flex;
+    }
+    img {
+      border: 4mm ridge rgba(223, 91, 168, 0.6);
+      border-radius: 15px;
+      margin-right: 20px;
+    }
+
+    a {
+      color: black;
+      text-decoration-line: none;
+    }
+    a:hover {
+      color: beige;
+      background-color: rgb(0, 0, 0);
+      border-radius: 10px;
+    }
+    .telegram:hover {
+      color: beige;
+      background-color: rgb(112, 46, 133);
+      border-radius: 10px;
+    }
+  </style>
+  <body>
+    <div id="block">
+      <div class="header"><a href="glavnaya.html">Главная</a></div>
+      <div class="header"><a href="about.html">Обо мне</a></div>
+      <div class="header"><a href="kontakt.html">Контакты</a></div>
+    </div>
+    <div id="block1">
+      <div id="1">
+        <img src="foto.jpeg" />
+      </div>
+      <div id="2">
+        <p>
+          <a class="telegram" href="https://t.me/Yaroslav_1508">Мой телеграм</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

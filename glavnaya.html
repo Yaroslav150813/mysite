@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=!, initial-scale=1.0" />
+    <title>Главная</title>
+  </head>
+  <style>
+    .header {
+      margin: 10px 50px 50px 50px;
+      font-size: 40px;
+    }
+    @font-face {
+      font-family: "Naurus";
+      src: url("./NAURYZREDKEDS.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+    }
+    body {
+      font-family: Naurus;
+    }
+    #block {
+      display: flex;
+      justify-content: center;
+    }
+    .hello {
+      background-image: url(CWN.gif);
+      border-radius: 50px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: rgb(250, 255, 240);
+      background-position: center;
+    }
+    h2 {
+      padding: 100px;
+      text-align: center;
+    }
+    a {
+      color: black;
+      text-decoration-line: none;
+    }
+    a:hover {
+      color: beige;
+      background-color: rgb(0, 0, 0);
+      border-radius: 10px;
+    }
+  </style>
+  <body>
+    <div id="block">
+      <div class="header"><a href="glavnaya.html">Главная</a></div>
+      <div class="header"><a href="about.html">Обо мне</a></div>
+      <div class="header"><a href="kontakt.html">Контакты</a></div>
+    </div>
+
+    <div class="hello"><h2>Привет, меня зовут Ярослав</h2></div>
+  </body>
+</html>
